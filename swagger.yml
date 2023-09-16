@@ -1,0 +1,10 @@
+openapi: 3.0.3
+info: 
+  title: T-STORE
+  description: Backend App - shahid-io
+  version: 1.0.1
+
+servers:
+  - url: http://localhost:3010/api/v1
+    description: localhost version of our app
+  
