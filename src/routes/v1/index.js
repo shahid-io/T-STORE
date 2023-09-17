@@ -1,9 +1,11 @@
 const express = require("express");
-const storeRoutes = require("./store");
-
+const userRoutes = require("./user.routes");
 
 const router = express.Router();
 
-router.use("/store", storeRoutes);
+/**
+ * /api/v1/user
+ */
+router.use("/user", userRoutes);
 
 module.exports = router;

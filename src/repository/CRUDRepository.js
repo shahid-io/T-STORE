@@ -56,4 +56,4 @@ class CRUDRepository {
 }
 
 
-model.exports = { CRUDRepository };
+module.exports = { CRUDRepository };

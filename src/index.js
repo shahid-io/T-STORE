@@ -1,6 +1,6 @@
 const express = require('express');
-const router = express.Router();
-const { ServerConfig } = require('./config');
+const apiRoutes = require('./routes');
+const { ServerConfig, DatabaseConfig } = require('./config');
 const app = express();
 
 /**
@@ -19,15 +19,24 @@ app.use(express.urlencoded({ extended: true }));
  * swagger <
  */
 
+app.use('/api', apiRoutes);
+
 app.get('/', (req, res) => {
     res.send('Hello World!');
 }
 );
-app.get('/instagram', (req, res) => {
-    res.send('Instagram!');
-}
-);
-
-app.listen(ServerConfig.PORT, () => {
-    console.log(`Server is listening on ${ServerConfig.HOST}:${ServerConfig.PORT}`);
+app.listen(ServerConfig.PORT, async () => {
+    try {
+        await DatabaseConfig.connect().then(() => {
+            console.log("DB CONNECTION ESHTABLISH");
+        })
+            .catch((error) => {
+                console.log("DB CONNECTION FAILED");
+                console.log(error);
+                process.exit(1);
+            });
+        console.log(`Server is listening on ${ServerConfig.HOST}:${ServerConfig.PORT}`);
+    } catch (error) {
+        console.log('Error connecting to database:', error)
+    }
 });
