@@ -1,4 +1,5 @@
 const express = require('express');
+const router = express.Router();
 const { ServerConfig } = require('./config');
 const app = express();
 
@@ -11,6 +12,8 @@ const YAML = require('yamljs');
 const swaggerDocument = YAML.load('./swagger.yml');
 
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 /**
  * swagger <
@@ -18,6 +21,10 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 app.get('/', (req, res) => {
     res.send('Hello World!');
+}
+);
+app.get('/instagram', (req, res) => {
+    res.send('Instagram!');
 }
 );
 

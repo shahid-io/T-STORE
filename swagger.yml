@@ -1,5 +1,6 @@
 openapi: 3.0.3
-info: 
+
+info:
   title: T-STORE
   description: Backend App - shahid-io
   version: 1.0.1
@@ -7,4 +8,43 @@ info:
 servers:
   - url: http://localhost:3010/api/v1
     description: localhost version of our app
-  
+
+
+components:
+  securitySchemes:
+    BasicAuth:
+      type: http
+      scheme: basic
+    BearAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+
+paths:
+  /users:
+    get:
+      summary: Returns a list of users.
+      description: Optional extended description in CommonMark or HTML.
+      responses:
+        "200": # status code
+          description: A JSON array of user names
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+  /instagram:
+    get:
+      summary: Returns a list of instagram.
+      description: Optional extended description in CommonMark or HTML.
+      responses:
+        "200": # status code
+          description: A JSON array of user names
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
