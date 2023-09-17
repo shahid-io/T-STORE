@@ -1,7 +1,11 @@
 const { CRUDRepository } = require('./CRUDRepository');
 
-class TStore extends CRUDRepository {
+class OrderRepository extends CRUDRepository {
     constructor(model) {
         super(model);
     }
+}
+
+module.exports = {
+    OrderRepository
 }
