@@ -6,10 +6,10 @@ const { UserService } = require('../services');
  * @param { username, email, password, isAdmin } req : POST
  * @param { user } res 
  */
-async function createUser(req, res) {
+async function signup(req, res) {
     try {
         const { username, email, password, isAdmin } = req.body;
-        const user = await UserService.registerUser(
+        const user = await UserService.signupUser(
             {
                 username, email, password, isAdmin
             }
@@ -19,7 +19,20 @@ async function createUser(req, res) {
         res.status(500).json({ message: 'Error creating user', error: error.message });
     }
 }
+async function login(req, res) {
+    try {
+        const { email, password } = req.body;
+        const user = await UserService.loginUser(
+            {
+                email, password
+            }
+        );
+        res.json({ message: 'User logged in successfully', user });
+    } catch (error) {
+        res.status(500).json({ message: 'Error logging in user', error: error.message });
+    }
+}
 
 module.exports = {
-    createUser,
+    signup, login
 };
