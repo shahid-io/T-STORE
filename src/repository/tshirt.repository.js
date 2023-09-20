@@ -5,7 +5,6 @@ const { Tshirt } = require('../models/tshirt.model');
 class TshirtRepository extends CRUDRepository {
     constructor() {
         super(Tshirt);
-        console.log(Tshirt);
     }
 
     async getAllTshirtsWithCategoryNames() {
