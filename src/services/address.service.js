@@ -26,6 +26,27 @@ async function getAddress(data) {
     }
 }
 
+// Update Address
+async function updateAddress(id, data) {
+    try {
+        const address = await addressRepository.update(id, data);
+        return address;
+    } catch (error) {
+        throw error;
+    }
+}
+
+// Destroy Address
+async function destroyAddress(id) {
+    try {
+        const address = await addressRepository.destroy(id);
+        return address;
+    } catch (error) {
+        throw error;
+    }
+}
+
+
 // Get Address with users
 async function getAddressWithUser() {
     try {
@@ -39,5 +60,5 @@ async function getAddressWithUser() {
 
 
 module.exports = {
-    addAddress, getAddress, getAddressWithUser
+    addAddress, getAddress, getAddressWithUser, updateAddress, destroyAddress
 }

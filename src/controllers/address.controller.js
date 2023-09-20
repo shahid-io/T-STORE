@@ -22,7 +22,29 @@ async function getAddress(req, res) {
     }
 }
 
+async function updateAddress(req, res) {
+    try {
+        const id = req.params.id;
+        const data = req.body;
+        const address = await AddressService.updateAddress(id, data);
+        res.status(200).json(address);
+    } catch (error) {
+        res.status(500).json(error);
+    }
+}
+async function destroyAddress(req, res) {
+    try {
+        const id = req.params.id;
+        const address = await AddressService.destroyAddress(id);
+        res.status(200).json({ message: 'Address deleted successfully', address: address });
+    } catch (error) {
+        res.status(500).json(error);
+    }
+}
+
+
+
 
 module.exports = {
-    addAddress, getAddress
+    addAddress, getAddress, updateAddress, destroyAddress
 }

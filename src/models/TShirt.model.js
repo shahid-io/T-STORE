@@ -8,6 +8,7 @@ const tshirtSchema = new mongoose.Schema({
     color: { type: String, required: true },
     image: { type: String, required: true },
     categories: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Category' }],
+    status: { type: Number, required: true, default: 1 },
 });
 
 const Tshirt = mongoose.model('Tshirt', tshirtSchema);
