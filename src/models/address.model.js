@@ -7,8 +7,9 @@ const addressSchema = new mongoose.Schema({
     state: { type: String, required: true },
     zipCode: { type: String, required: true },
     country: { type: String, required: true },
+    status: { type: Number, required: true, default: 1 },
 });
 
 const Address = mongoose.model('Address', addressSchema);
 
-module.exports = Address;
+module.exports = { Address };

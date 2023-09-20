@@ -6,8 +6,9 @@ const cartSchema = new mongoose.Schema({
         tshirt: { type: mongoose.Schema.Types.ObjectId, ref: 'Tshirt', required: true },
         quantity: { type: Number, required: true },
     }],
+    status: { type: Number, required: true, default: 1 },
 });
 
 const Cart = mongoose.model('Cart', cartSchema);
 
-module.exports = Cart;
+module.exports = { Cart };
