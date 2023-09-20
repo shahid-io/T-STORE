@@ -7,13 +7,11 @@ class UserRepository extends CRUDRepository {
 
     constructor() {
         super(User);
-        console.log(User);
     }
 
     async signup(data) {
         try {
             const { username, email, password, isAdmin } = data;
-            console.log("**** FROM UserRepository *****", data);
             const hashedPassword = await bcrypt.hash(password, parseInt(process.env.SALT_ROUNDS));
             const user = new User({
                 username: username,
@@ -21,7 +19,6 @@ class UserRepository extends CRUDRepository {
                 password: hashedPassword,
                 isAdmin: isAdmin,
             });
-            console.log("**** FROM UserRepository *****", user);
             const savedUser = await user.save();
             return savedUser;
 

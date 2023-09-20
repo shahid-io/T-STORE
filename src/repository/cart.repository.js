@@ -1,8 +1,8 @@
 const { CRUDRepository } = require('./CRUDRepository');
-
+const { Cart } = require('../models/cart.model');
 class CartRepository extends CRUDRepository {
-    constructor(model) {
-        super(model);
+    constructor() {
+        super(Cart);
     }
 }
 
