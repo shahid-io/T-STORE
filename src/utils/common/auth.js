@@ -35,8 +35,21 @@ function verifyToken(token) {
     }
 }
 
+function decodeToken(token) {
+    return jwt.verify(token, ServerConfig.SECRET_KEY);
+};
+
+function getUserInfo(req) {
+    console.log("req.headers-> ", req.headers)
+    const token = req.headers['x-access-token'];
+    console.log("token -=->", token)
+    const user = decodeToken(token);
+    return user;
+};
+
 module.exports = {
     // checkPassword,
     // createToken,
     verifyToken,
+    getUserInfo
 };

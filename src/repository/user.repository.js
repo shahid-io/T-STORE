@@ -47,7 +47,7 @@ class UserRepository extends CRUDRepository {
             }
 
             const token = jwt.sign(
-                { username: user.username, email: user.email, isAdmin: user.isAdmin },
+                { id: user._id, username: user.username, email: user.email, isAdmin: user.isAdmin },
                 process.env.SECRET_KEY,
                 { expiresIn: '1h' }
             );
