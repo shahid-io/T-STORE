@@ -14,8 +14,28 @@ async function addTshirt(data) {
     }
 }
 
+// Get Tshirts
+async function getTshirts() {
+    try {
+        const tshirts = await tshirtRepository.getAll();
+        return tshirts;
+    } catch (error) {
+        throw error;
+    }
+}
+
+// Get Tshirts with category names
+async function getAllTshirtsWithCategoryNames() {
+    try {
+        const tshirts = await tshirtRepository.getAllTshirtsWithCategoryNames();
+        return tshirts;
+    } catch (error) {
+        throw error;
+    }
+}
+
 
 
 module.exports = {
-    addTshirt
+    addTshirt, getTshirts, getAllTshirtsWithCategoryNames
 }
