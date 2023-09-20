@@ -1,5 +1,6 @@
 const { AddressService } = require('../services');
 const { Auth } = require('../utils/common');
+
 async function addAddress(req, res) {
     try {
         const data = req.body;

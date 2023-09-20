@@ -27,7 +27,6 @@ const { ServerConfig } = require("../../config");
 // }
 function verifyToken(token) {
     try {
-        console.log("Token -> ", token);
         return jwt.verify(token, ServerConfig.SECRET_KEY);
     } catch (error) {
         console.log(error);
@@ -40,9 +39,7 @@ function decodeToken(token) {
 };
 
 function getUserInfo(req) {
-    console.log("req.headers-> ", req.headers)
     const token = req.headers['x-access-token'];
-    console.log("token -=->", token)
     const user = decodeToken(token);
     return user;
 };
