@@ -8,6 +8,7 @@ const orderSchema = new mongoose.Schema({
     }],
     totalPrice: { type: Number, required: true },
     createdAt: { type: Date, default: Date.now },
+    status: { type: Number, required: true, default: 1 },
 });
 
 const Order = mongoose.model('Order', orderSchema);
