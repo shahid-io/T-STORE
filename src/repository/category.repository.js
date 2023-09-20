@@ -1,12 +1,11 @@
 const { CRUDRepository } = require('./CRUDRepository');
-
+const { Category } = require('../models/category.model');
 class CategoryRepository extends CRUDRepository {
-    constructor(model) {
-        super(model);
+    constructor() {
+        super(Category);
     }
 }
 
 
-module.exports = {
+module.exports =
     CategoryRepository
-}
