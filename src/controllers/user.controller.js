@@ -1,5 +1,5 @@
 const { UserService } = require('../services');
-
+const { Auth } = require('../utils/common');
 
 /**
  * POST /api/users
@@ -33,6 +33,21 @@ async function login(req, res) {
     }
 }
 
+async function updateUser(req, res) {
+    try {
+        const userByToken = Auth.getUserInfo(req);
+        const { id } = userByToken;
+        const { username, email, password, isAdmin, status } = req.body;
+        const user = await UserService.updateUser(
+            id, {
+            username, email, password, isAdmin, status
+        }
+        );
+        res.status(200).json({ message: 'User updated successfully', user });
+    } catch (error) {
+        res.status(500).json({ message: 'Error updating user', error: error.message });
+    }
+}
 module.exports = {
-    signup, login
+    signup, login, updateUser
 };
