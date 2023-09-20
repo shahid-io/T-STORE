@@ -18,7 +18,8 @@ async function addAddress(data) {
 async function getAddress(data) {
     try {
         const userRepository = new UserRepository();
-        const address = await userRepository.get(data);
+        const user = await userRepository.get(data);
+        const address = await addressRepository.addressByUserId(user.id);
         return address;
     } catch (error) {
         throw error;
