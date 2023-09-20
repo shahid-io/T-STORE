@@ -1,11 +1,13 @@
 const { CRUDRepository } = require('./CRUDRepository');
 
-class TShirtRepository extends CRUDRepository {
-    constructor(model) {
-        super(model);
+const { Tshirt } = require('../models/tshirt.model');
+
+class TshirtRepository extends CRUDRepository {
+    constructor() {
+        super(Tshirt);
+        console.log(Tshirt);
     }
 }
 
 
-model.exports =
-    { TShirtRepository }
+module.exports = TshirtRepository 
