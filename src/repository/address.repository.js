@@ -1,11 +1,10 @@
 const { CRUDRepository } = require('./CRUDRepository');
-
+const { Address } = require('../models/address.model');
 class AddressRepository extends CRUDRepository {
-    constructor(model) {
-        super(model);
+    constructor() {
+        super(Address);
     }
 }
 
-module.exports = {
+module.exports =
     AddressRepository
-}
