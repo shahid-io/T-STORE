@@ -22,6 +22,16 @@ async function getCategories() {
     }
 }
 
+async function getCategory(id) {
+    try {
+        const category = await categoryRepository.get(id);
+        return category;
+    } catch (error) {
+        throw error;
+    }
+}
+
+
 module.exports = {
-    addCategory, getCategories
+    addCategory, getCategory, getCategories
 }

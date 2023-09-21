@@ -8,7 +8,9 @@ const { Auth } = require('../utils/common');
  */
 async function signup(req, res) {
     try {
+
         const { username, email, password, isAdmin } = req.body;
+        console.log(req.body)
         const user = await UserService.signupUser(
             {
                 username, email, password, isAdmin
@@ -22,11 +24,13 @@ async function signup(req, res) {
 async function login(req, res) {
     try {
         const { email, password } = req.body;
-        const user = await UserService.loginUser(
-            {
-                email, password
-            }
-        );
+        if (!email || !password) {
+            return res.status(400).json({ message: 'Both email and password are required' });
+        }
+        const user = await UserService.loginUser({ email, password });
+        if (!user) {
+            return res.status(401).json({ message: 'Invalid email or password' });
+        }
         res.json({ message: 'User logged in successfully', user });
     } catch (error) {
         res.status(500).json({ message: 'Error logging in user', error: error.message });
