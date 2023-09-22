@@ -1,0 +1,260 @@
+[33mcommit 1afb05c87a3a9581a908eed1eeb798c5357d820b[m[33m ([m[1;36mHEAD -> [m[1;32msanny-dev[m[33m)[m
+Merge: 0c1e39a af90975
+Author: SupeerSanny <ksanny556@gmail.com>
+Date:   Wed Sep 20 23:13:49 2023 +0530
+
+    Merge remote-tracking branch 'upstream/main' into sanny-dev
+
+[33mcommit af90975f1edf2b374ec23f12f064d284d87d64b7[m[33m ([m[1;31mupstream/main[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 641ccac 24e4c5c
+Author: Shahid Raza <50213579+shahid-io@users.noreply.github.com>
+Date:   Wed Sep 20 23:13:17 2023 +0530
+
+    Merge pull request #15 from shahid-io/shahid-dev
+    
+    Added some changes
+
+[33mcommit 24e4c5c36c43ccd4a427f0b6acf2dd2d8571bef1[m[33m ([m[1;31mupstream/shahid-dev[m[33m)[m
+Author: shahid <shahid@techwarelab.com>
+Date:   Wed Sep 20 23:11:59 2023 +0530
+
+    Added some changes
+
+[33mcommit 0c1e39a1a9f3050622f09df4b29f6c1a0e866b48[m[33m ([m[1;31morigin/sanny-dev[m[33m)[m
+Merge: 5c92015 ed7b002
+Author: SupeerSanny <ksanny556@gmail.com>
+Date:   Wed Sep 20 23:05:41 2023 +0530
+
+    Merge remote-tracking branch 'origin/sanny-dev' into sanny-dev
+
+[33mcommit 5c92015421dedf99f308890df70a65bcdaffa7ea[m
+Author: SupeerSanny <ksanny556@gmail.com>
+Date:   Wed Sep 20 22:59:02 2023 +0530
+
+    Some changes
+
+[33mcommit 641ccac175dabddfef15a3eb46f7eb713884a969[m[33m ([m[1;31mupstream/sanny-dev[m[33m)[m
+Merge: e1e2a36 ed7b002
+Author: Shahid Raza <50213579+shahid-io@users.noreply.github.com>
+Date:   Wed Sep 20 22:49:50 2023 +0530
+
+    Merge pull request #13 from SuperSanny/sanny-dev
+    
+    changes
+
+[33mcommit ed7b002da46dda03c36245a54114b731f693324d[m
+Merge: 16a34e6 e1e2a36
+Author: Shahid Raza <50213579+shahid-io@users.noreply.github.com>
+Date:   Wed Sep 20 22:49:43 2023 +0530
+
+    Merge branch 'main' into sanny-dev
+
+[33mcommit 16a34e673229f052dcd619ac3009ba090113b761[m
+Author: SupeerSanny <ksanny556@gmail.com>
+Date:   Wed Sep 20 22:39:40 2023 +0530
+
+    changes
+
+[33mcommit e1e2a3601f7a16f7e72f526c4480fbbb305c90ad[m
+Merge: 882e8ab a667460
+Author: Shahid Raza <50213579+shahid-io@users.noreply.github.com>
+Date:   Wed Sep 20 16:35:18 2023 +0530
+
+    Merge pull request #12 from shahid-io/shahid-dev
+    
+    Fix some issues, removed console
+
+[33mcommit a667460eebc205ba1553973eec3124d0c53f06de[m
+Author: shahid <razashahid532@gmail.com>
+Date:   Wed Sep 20 16:34:22 2023 +0530
+
+    Fix some issues, removed console
+
+[33mcommit 882e8ab79107a6f07810a98384688949a34f5c42[m
+Merge: 1786988 7bca3d6
+Author: Shahid Raza <50213579+shahid-io@users.noreply.github.com>
+Date:   Wed Sep 20 16:08:36 2023 +0530
+
+    Merge pull request #11 from shahid-io/shahid-dev
+    
+    Added User setting API
+
+[33mcommit 7bca3d60d9e3cf4c2185c6842cd9261719be3dce[m
+Author: shahid <razashahid532@gmail.com>
+Date:   Wed Sep 20 16:06:56 2023 +0530
+
+    Added User setting API
+
+[33mcommit 17869884454c7cc272ade077197a06a52425c434[m
+Merge: b73ea3e b7f3523
+Author: Shahid Raza <50213579+shahid-io@users.noreply.github.com>
+Date:   Wed Sep 20 15:12:11 2023 +0530
+
+    Merge pull request #10 from shahid-io/shahid-dev
+    
+    Added Update, Delete API for Address
+
+[33mcommit b7f3523ec6235746aa46e6f5a1c3a9771d30afd0[m
+Author: shahid <razashahid532@gmail.com>
+Date:   Wed Sep 20 15:09:16 2023 +0530
+
+    Added Update, Delete API for Address
+
+[33mcommit b73ea3eda5e4c99e6e2b9f1abcc1013acc33645f[m
+Merge: 4fd4cfb 3eb94cb
+Author: Shahid Raza <50213579+shahid-io@users.noreply.github.com>
+Date:   Wed Sep 20 14:38:28 2023 +0530
+
+    Merge pull request #9 from shahid-io/shahid-dev
+    
+    Completed User Address API
+
+[33mcommit 3eb94cbf4d078ad2544c4f17b2931fba1a144874[m
+Author: shahid <razashahid532@gmail.com>
+Date:   Wed Sep 20 14:36:07 2023 +0530
+
+    Completed User Address API
+
+[33mcommit 4fd4cfb35c900610c7e973fa7cf4bf75b2bf08d2[m
+Merge: 0f3d103 1079e79
+Author: Shahid Raza <50213579+shahid-io@users.noreply.github.com>
+Date:   Wed Sep 20 13:35:06 2023 +0530
+
+    Merge pull request #8 from shahid-io/shahid-dev
+    
+    Added Address API, GET Logged In User
+
+[33mcommit 1079e79e4adcba15c0e75c3ca5ffa5efd9ce1867[m
+Author: shahid <razashahid532@gmail.com>
+Date:   Wed Sep 20 13:33:33 2023 +0530
+
+    Added Address API, GET Logged In User
+
+[33mcommit 0f3d103d034923a496adeebd6bd8a4d19da5acb9[m
+Merge: ebcaf2b f048493
+Author: Shahid Raza <50213579+shahid-io@users.noreply.github.com>
+Date:   Wed Sep 20 11:47:38 2023 +0530
+
+    Merge pull request #7 from shahid-io/shahid-dev
+    
+    Added Tshirt add, get, category
+
+[33mcommit f0484931c55a3d8e98fe04936c355ceb6b66fc75[m
+Author: shahid <razashahid532@gmail.com>
+Date:   Wed Sep 20 11:45:43 2023 +0530
+
+    Added Tshirt add, get, category
+
+[33mcommit ebcaf2b6070cacc82b247fc72bed3d4bff2f10ba[m
+Merge: c03f45f 5a65281
+Author: Shahid Raza <50213579+shahid-io@users.noreply.github.com>
+Date:   Wed Sep 20 10:59:42 2023 +0530
+
+    Merge pull request #6 from shahid-io/shahid-dev
+    
+    Protected routes, added category(t-shirt)
+
+[33mcommit 5a65281cc8702c7699ff99cd71e096a9241f9709[m
+Author: shahid <razashahid532@gmail.com>
+Date:   Wed Sep 20 10:57:36 2023 +0530
+
+    Protected routes, added category(tshirt)
+
+[33mcommit c03f45f007fb8689a737e38e251b3b675766d105[m[33m ([m[1;32mmain[m[33m)[m
+Merge: 871e103 b298109
+Author: Shahid Raza <50213579+shahid-io@users.noreply.github.com>
+Date:   Tue Sep 19 23:54:31 2023 +0530
+
+    Merge pull request #5 from shahid-io/shahid-dev
+    
+    Shahid dev
+
+[33mcommit b298109348ae77fdb3becd0683d3244f1a7cc817[m
+Author: shahid <razashahid532@gmail.com>
+Date:   Tue Sep 19 23:53:13 2023 +0530
+
+    bug fixed
+
+[33mcommit 76f005303fa38b1219396df516438296c022e03f[m
+Author: shahid <razashahid532@gmail.com>
+Date:   Tue Sep 19 23:48:16 2023 +0530
+
+    Updated Readme file
+
+[33mcommit 871e10361720fde9676d54a38c616471aacb94fe[m
+Merge: 067202e 6c776c8
+Author: Shahid Raza <50213579+shahid-io@users.noreply.github.com>
+Date:   Tue Sep 19 23:38:15 2023 +0530
+
+    Merge pull request #4 from shahid-io/shahid-dev
+    
+    Added Authentication, Features
+
+[33mcommit 6c776c8dc9471464a60b010a152198bf5c91593c[m
+Author: shahid <razashahid532@gmail.com>
+Date:   Tue Sep 19 23:36:31 2023 +0530
+
+    Added Authentication, Features
+
+[33mcommit 067202e9d4f6a3294a093191064d32581ba7650b[m
+Merge: 0c8b716 d22331e
+Author: Shahid Raza <50213579+shahid-io@users.noreply.github.com>
+Date:   Mon Sep 18 00:25:42 2023 +0530
+
+    Merge pull request #3 from shahid-io/shahid-dev
+    
+    Added User
+
+[33mcommit d22331e1e0f359b59364529c561bb062c333fa1a[m
+Author: shahid <razashahid532@gmail.com>
+Date:   Mon Sep 18 00:23:21 2023 +0530
+
+    Added User
+
+[33mcommit 0c8b716408bb8948b1fe5708d6d612b727761851[m
+Merge: 083642e 73b275c
+Author: Shahid Raza <50213579+shahid-io@users.noreply.github.com>
+Date:   Sun Sep 17 22:48:01 2023 +0530
+
+    Merge pull request #2 from shahid-io/shahid-dev
+    
+    Added Controller, Repository and Route files
+
+[33mcommit 73b275cfaef21989a3bdf58f67861847fd145a51[m
+Author: shahid <razashahid532@gmail.com>
+Date:   Sun Sep 17 22:46:41 2023 +0530
+
+    Added Controller, Repository and Route files
+
+[33mcommit 083642e9b5b2313b8a7e38b1aace882d06270804[m
+Merge: 20fb150 b770a1c
+Author: Shahid Raza <50213579+shahid-io@users.noreply.github.com>
+Date:   Sun Sep 17 15:35:00 2023 +0530
+
+    Merge pull request #1 from shahid-io/shahid-dev
+    
+    Added Models & Routes
+
+[33mcommit b770a1c37ae59978fb98e77f253a31106c3c7ee5[m
+Author: shahid <razashahid532@gmail.com>
+Date:   Sun Sep 17 15:32:25 2023 +0530
+
+    Added Models & Routes
+
+[33mcommit 20fb150fd7f39ede74aafd07727190c7ce1978cb[m
+Author: shahid <razashahid532@gmail.com>
+Date:   Sun Sep 17 00:21:00 2023 +0530
+
+    Added Swagger and yml
+
+[33mcommit 3190e449c052e3c77324c373f996f86f61cb2999[m
+Author: shahid <razashahid532@gmail.com>
+Date:   Sat Sep 16 23:22:04 2023 +0530
+
+    Initial commit
+
+[33mcommit 020d45e921f2e6f7a4d9af103f2d5e714c5e9ea5[m
+Author: Shahid Raza <50213579+shahid-io@users.noreply.github.com>
+Date:   Sat Sep 16 22:15:06 2023 +0530
+
+    Initial commit
