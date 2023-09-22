@@ -26,6 +26,16 @@ async function getCategories(req, res) {
 }
 
 
+async function getCategory(req, res) {
+    try {
+        const { id } = req.params;
+        const category = await CategoryService.getCategory(id);
+        res.json(category);
+    } catch (error) {
+        res.status(500).json({ message: 'Error getting Category', error: error.message });
+    }
+}
+
 module.exports = {
-    addCategory, getCategories
+    addCategory, getCategory, getCategories
 };

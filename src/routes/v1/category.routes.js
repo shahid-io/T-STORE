@@ -9,5 +9,5 @@ const router = express.Router();
 
 router.post('/', AuthMiddleware.verifyToken, CategoryController.addCategory);
 router.get('/', AuthMiddleware.verifyToken, CategoryController.getCategories);
-
+router.get('/:id', AuthMiddleware.verifyToken, CategoryController.getCategory);
 module.exports = router;

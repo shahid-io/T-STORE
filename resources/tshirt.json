@@ -1,0 +1,608 @@
+[
+  {
+    "name": "Striped Tee 1",
+    "description": "A classic striped T-shirt for everyday wear.",
+    "price": 290.99,
+    "size": "M",
+    "color": "White, Black",
+    "image": "striped_tee_1.jpg",
+    "categories": [
+      "650a7be17575e3b87f3f1d03"
+    ]
+  },
+  {
+    "name": "Graphic Tee 1",
+    "description": "A cool graphic T-shirt for casual occasions.",
+    "price": 350.50,
+    "size": "L",
+    "color": "Red, Blue",
+    "image": "graphic_tee_1.jpg",
+    "categories": [
+      "650a7be17575e3b87f3f1d03"
+    ]
+  },
+  {
+    "name": "Men's V-Neck 1",
+    "description": "A comfortable V-neck T-shirt for men.",
+    "price": 320.50,
+    "size": "L",
+    "color": "Black, Grey",
+    "image": "mens_vneck_1.jpg",
+    "categories": [
+      "650a7be17575e3b87f3f1d03",
+      "650a856be933ed51ff0d75d7"
+    ]
+  },
+  {
+    "name": "Women's Crew Neck 1",
+    "description": "A stylish crew neck T-shirt for women.",
+    "price": 299.99,
+    "size": "S",
+    "color": "Pink, White",
+    "image": "womens_crewneck_1.jpg",
+    "categories": [
+      "650a7bf77575e3b87f3f1d05",
+      "650a855ee933ed51ff0d75d5"
+    ]
+  },
+  {
+    "name": "Striped Tee 2",
+    "description": "A classic striped T-shirt for everyday wear.",
+    "price": 290.99,
+    "size": "M",
+    "color": "White, Black",
+    "image": "striped_tee_2.jpg",
+    "categories": [
+      "650a7be17575e3b87f3f1d03"
+    ]
+  },
+  {
+    "name": "Graphic Tee 2",
+    "description": "A cool graphic T-shirt for casual occasions.",
+    "price": 350.50,
+    "size": "L",
+    "color": "Red, Blue",
+    "image": "graphic_tee_2.jpg",
+    "categories": [
+      "650a7be17575e3b87f3f1d03"
+    ]
+  },
+  {
+    "name": "Men's V-Neck 2",
+    "description": "A comfortable V-neck T-shirt for men.",
+    "price": 320.50,
+    "size": "L",
+    "color": "Black, Grey",
+    "image": "mens_vneck_2.jpg",
+    "categories": [
+      "650a7be17575e3b87f3f1d03",
+      "650a856be933ed51ff0d75d7"
+    ]
+  },
+  {
+    "name": "Women's Crew Neck 2",
+    "description": "A stylish crew neck T-shirt for women.",
+    "price": 299.99,
+    "size": "S",
+    "color": "Pink, White",
+    "image": "womens_crewneck_2.jpg",
+    "categories": [
+      "650a7bf77575e3b87f3f1d05",
+      "650a7c057575e3b87f3f1d07"
+    ]
+  },
+  {
+    "name": "Long Sleeve Tee 1",
+    "description": "A comfortable long-sleeve T-shirt for all occasions.",
+    "price": 360.00,
+    "size": "XL",
+    "color": "Navy, Grey",
+    "image": "long_sleeve_tee_1.jpg",
+    "categories": [
+      "650a7c247575e3b87f3f1d0b",
+      "650a856be933ed51ff0d75d7"
+    ]
+  },
+  {
+    "name": "Short Sleeve Tee 1",
+    "description": "A classic short-sleeve T-shirt for everyday wear.",
+    "price": 270.00,
+    "size": "M",
+    "color": "White, Black",
+    "image": "short_sleeve_tee_1.jpg",
+    "categories": [
+      "650a7c167575e3b87f3f1d09"
+    ]
+  },
+  {
+    "name": "3/4 Sleeve Tee 1",
+    "description": "A versatile 3/4 sleeve T-shirt for any occasion.",
+    "price": 310.00,
+    "size": "L",
+    "color": "Blue, Red",
+    "image": "three_quarter_sleeve_tee_1.jpg",
+    "categories": [
+      "650a8547e933ed51ff0d75d3"
+    ]
+  },
+  {
+    "name": "Henley Neck Tee 1",
+    "description": "A stylish henley neck T-shirt for a casual look.",
+    "price": 320.50,
+    "size": "M",
+    "color": "Black, Grey",
+    "image": "henley_neck_tee_1.jpg",
+    "categories": [
+      "650a8578e933ed51ff0d75d9"
+    ]
+  },
+  {
+    "name": "Cotton Tee 1",
+    "description": "A comfortable cotton T-shirt for everyday wear.",
+    "price": 290.99,
+    "size": "S",
+    "color": "White, Grey",
+    "image": "cotton_tee_1.jpg",
+    "categories": [
+      "650a86afe933ed51ff0d75e5",
+      "650a86ade933ed51ff0d75e1"
+    ]
+  },
+  {
+    "name": "Polyester Tee 1",
+    "description": "A durable polyester T-shirt for active lifestyles.",
+    "price": 310.99,
+    "size": "L",
+    "color": "Black, Blue",
+    "image": "polyester_tee_1.jpg",
+    "categories": [
+      "650a8693e933ed51ff0d75e3"
+    ]
+  },
+  {
+    "name": "Blend Tee 1",
+    "description": "A comfortable cotton-polyester blend T-shirt for any occasion.",
+    "price": 330.50,
+    "size": "M",
+    "color": "Grey, Red",
+    "image": "blend_tee_1.jpg",
+    "categories": [
+      "650a86bae933ed51ff0d75e7",
+      "650a86afe933ed51ff0d75e5"
+    ]
+  },
+  {
+    "name": "Floral Print Tee 1",
+    "description": "A stylish floral print T-shirt for a unique look.",
+    "price": 360.00,
+    "size": "S",
+    "color": "Pink, White",
+    "image": "floral_print_tee_1.jpg",
+    "categories": [
+      "650a86e4e933ed51ff0d75ef"
+    ]
+  },
+  {
+    "name": "Abstract Design Tee 1",
+    "description": "An artistic abstract design T-shirt for a creative look.",
+    "price": 380.50,
+    "size": "L",
+    "color": "Black, Blue",
+    "image": "abstract_design_tee_1.jpg",
+    "categories": [
+      "650a86eee933ed51ff0d75f1"
+    ]
+  },
+  {
+    "name": "Casual Tee 1",
+    "description": "A comfortable and casual T-shirt for everyday wear.",
+    "price": 299.99,
+    "size": "M",
+    "color": "White, Grey",
+    "image": "casual_tee_1.jpg",
+    "categories": [
+      "650a86f9e933ed51ff0d75f3"
+    ]
+  },
+  {
+    "name": "Formal Tee 1",
+    "description": "A formal T-shirt for special occasions.",
+    "price": 350.50,
+    "size": "L",
+    "color": "Black, White",
+    "image": "formal_tee_1.jpg",
+    "categories": [
+      "650a8703e933ed51ff0d75f5"
+    ]
+  },
+  {
+    "name": "Sports Tee 1",
+    "description": "A sports-themed T-shirt for active individuals.",
+    "price": 360.00,
+    "size": "XL",
+    "color": "Red, Blue",
+    "image": "sports_tee_1.jpg",
+    "categories": [
+      "650a8712e933ed51ff0d75f7"
+    ]
+  },
+  {
+    "name": "Summer Tee 1",
+    "description": "A lightweight T-shirt perfect for summer.",
+    "price": 280.99,
+    "size": "S",
+    "color": "White, Yellow",
+    "image": "summer_tee_1.jpg",
+    "categories": [
+      "650a8720e933ed51ff0d75f9"
+    ]
+  },
+  {
+    "name": "Winter Tee 1",
+    "description": "A warm T-shirt suitable for winter months.",
+    "price": 310.50,
+    "size": "M",
+    "color": "Black, Grey",
+    "image": "winter_tee_1.jpg",
+    "categories": [
+      "650a8736e933ed51ff0d75fb"
+    ]
+  },
+  {
+    "name": "All-Season Tee 1",
+    "description": "A versatile T-shirt suitable for all seasons.",
+    "price": 320.99,
+    "size": "L",
+    "color": "Blue, White",
+    "image": "all_season_tee_1.jpg",
+    "categories": [
+      "650a8740e933ed51ff0d75fd"
+    ]
+  },
+  {
+    "name": "Adidas Tee 1",
+    "description": "A T-shirt featuring the Adidas logo.",
+    "price": 330.50,
+    "size": "M",
+    "color": "Black, Red",
+    "image": "adidas_tee_1.jpg",
+    "categories": [
+      "650a874be933ed51ff0d75ff"
+    ]
+  },
+  {
+    "name": "Nike Tee 1",
+    "description": "A T-shirt featuring the Nike logo.",
+    "price": 340.99,
+    "size": "S",
+    "color": "White, Black",
+    "image": "nike_tee_1.jpg",
+    "categories": [
+      "650a8754e933ed51ff0d7601"
+    ]
+  },
+  {
+    "name": "Puma Tee 1",
+    "description": "A T-shirt featuring the Puma logo.",
+    "price": 350.50,
+    "size": "L",
+    "color": "Black, Grey",
+    "image": "puma_tee_1.jpg",
+    "categories": [
+      "650a875de933ed51ff0d7603"
+    ]
+  },
+  {
+    "name": "Football Tee 1",
+    "description": "A T-shirt for football enthusiasts.",
+    "price": 320.99,
+    "size": "XL",
+    "color": "Red, Blue",
+    "image": "football_tee_1.jpg",
+    "categories": [
+      "650a8768e933ed51ff0d7605"
+    ]
+  },
+  {
+    "name": "Basketball Tee 1",
+    "description": "A T-shirt for basketball enthusiasts.",
+    "price": 320.99,
+    "size": "M",
+    "color": "Red, Blue",
+    "image": "basketball_tee_1.jpg",
+    "categories": [
+      "650a8771e933ed51ff0d7607"
+    ]
+  },
+  {
+    "name": "Yoga Tee 1",
+    "description": "A comfortable T-shirt for yoga enthusiasts.",
+    "price": 310.50,
+    "size": "S",
+    "color": "Purple, Grey",
+    "image": "yoga_tee_1.jpg",
+    "categories": [
+      "650a877ae933ed51ff0d7609"
+    ]
+  },
+  {
+    "name": "Striped Tee 3",
+    "description": "A classic striped T-shirt for everyday wear.",
+    "price": 290.99,
+    "size": "M",
+    "color": "White, Black",
+    "image": "striped_tee_3.jpg",
+    "categories": [
+      "650a7be17575e3b87f3f1d03"
+    ]
+  },
+  {
+    "name": "Graphic Tee 3",
+    "description": "A cool graphic T-shirt for casual occasions.",
+    "price": 350.50,
+    "size": "L",
+    "color": "Red, Blue",
+    "image": "graphic_tee_3.jpg",
+    "categories": [
+      "650a7be17575e3b87f3f1d03"
+    ]
+  },
+  {
+    "name": "Men's V-Neck 3",
+    "description": "A comfortable V-neck T-shirt for men.",
+    "price": 320.50,
+    "size": "L",
+    "color": "Black, Grey",
+    "image": "mens_vneck_3.jpg",
+    "categories": [
+      "650a7be17575e3b87f3f1d03",
+      "650a856be933ed51ff0d75d7"
+    ]
+  },
+  {
+    "name": "Women's Crew Neck 3",
+    "description": "A stylish crew neck T-shirt for women.",
+    "price": 299.99,
+    "size": "S",
+    "color": "Pink, White",
+    "image": "womens_crewneck_3.jpg",
+    "categories": [
+      "650a7bf77575e3b87f3f1d05",
+      "650a855ee933ed51ff0d75d5"
+    ]
+  },
+  {
+    "name": "Long Sleeve Tee 2",
+    "description": "A comfortable long-sleeve T-shirt for all occasions.",
+    "price": 360.00,
+    "size": "XL",
+    "color": "Navy, Grey",
+    "image": "long_sleeve_tee_2.jpg",
+    "categories": [
+      "650a7c247575e3b87f3f1d0b",
+      "650a856be933ed51ff0d75d7"
+    ]
+  },
+  {
+    "name": "Short Sleeve Tee 2",
+    "description": "A classic short-sleeve T-shirt for everyday wear.",
+    "price": 270.00,
+    "size": "M",
+    "color": "White, Black",
+    "image": "short_sleeve_tee_2.jpg",
+    "categories": [
+      "650a7c167575e3b87f3f1d09"
+    ]
+  },
+  {
+    "name": "3/4 Sleeve Tee 2",
+    "description": "A versatile 3/4 sleeve T-shirt for any occasion.",
+    "price": 310.00,
+    "size": "L",
+    "color": "Blue, Red",
+    "image": "three_quarter_sleeve_tee_2.jpg",
+    "categories": [
+      "650a8547e933ed51ff0d75d3"
+    ]
+  },
+  {
+    "name": "Henley Neck Tee 2",
+    "description": "A stylish henley neck T-shirt for a casual look.",
+    "price": 320.50,
+    "size": "M",
+    "color": "Black, Grey",
+    "image": "henley_neck_tee_2.jpg",
+    "categories": [
+      "650a8578e933ed51ff0d75d9"
+    ]
+  },
+  {
+    "name": "Cotton Tee 2",
+    "description": "A comfortable cotton T-shirt for everyday wear.",
+    "price": 290.99,
+    "size": "S",
+    "color": "White, Grey",
+    "image": "cotton_tee_2.jpg",
+    "categories": [
+      "650a86afe933ed51ff0d75e5",
+      "650a86ade933ed51ff0d75e1"
+    ]
+  },
+  {
+    "name": "Polyester Tee 2",
+    "description": "A durable polyester T-shirt for active lifestyles.",
+    "price": 310.99,
+    "size": "L",
+    "color": "Black, Blue",
+    "image": "polyester_tee_2.jpg",
+    "categories": [
+      "650a8693e933ed51ff0d75e3"
+    ]
+  },
+  {
+    "name": "Blend Tee 2",
+    "description": "A comfortable cotton-polyester blend T-shirt for any occasion.",
+    "price": 330.50,
+    "size": "M",
+    "color": "Grey, Red",
+    "image": "blend_tee_2.jpg",
+    "categories": [
+      "650a86bae933ed51ff0d75e7",
+      "650a86afe933ed51ff0d75e5"
+    ]
+  },
+  {
+    "name": "Floral Print Tee 2",
+    "description": "A stylish floral print T-shirt for a unique look.",
+    "price": 360.00,
+    "size": "S",
+    "color": "Pink, White",
+    "image": "floral_print_tee_2.jpg",
+    "categories": [
+      "650a86e4e933ed51ff0d75ef"
+    ]
+  },
+  {
+    "name": "Abstract Design Tee 2",
+    "description": "An artistic abstract design T-shirt for a creative look.",
+    "price": 380.50,
+    "size": "L",
+    "color": "Black, Blue",
+    "image": "abstract_design_tee_2.jpg",
+    "categories": [
+      "650a86eee933ed51ff0d75f1"
+    ]
+  },
+  {
+    "name": "Casual Tee 2",
+    "description": "A comfortable and casual T-shirt for everyday wear.",
+    "price": 299.99,
+    "size": "M",
+    "color": "White, Grey",
+    "image": "casual_tee_2.jpg",
+    "categories": [
+      "650a86f9e933ed51ff0d75f3"
+    ]
+  },
+  {
+    "name": "Formal Tee 2",
+    "description": "A formal T-shirt for special occasions.",
+    "price": 350.50,
+    "size": "L",
+    "color": "Black, White",
+    "image": "formal_tee_2.jpg",
+    "categories": [
+      "650a8703e933ed51ff0d75f5"
+    ]
+  },
+  {
+    "name": "Sports Tee 2",
+    "description": "A sports-themed T-shirt for active individuals.",
+    "price": 360.00,
+    "size": "XL",
+    "color": "Red, Blue",
+    "image": "sports_tee_2.jpg",
+    "categories": [
+      "650a8712e933ed51ff0d75f7"
+    ]
+  },
+  {
+    "name": "Summer Tee 2",
+    "description": "A lightweight T-shirt perfect for summer.",
+    "price": 280.99,
+    "size": "S",
+    "color": "White, Yellow",
+    "image": "summer_tee_2.jpg",
+    "categories": [
+      "650a8720e933ed51ff0d75f9"
+    ]
+  },
+  {
+    "name": "Winter Tee 2",
+    "description": "A warm T-shirt suitable for winter months.",
+    "price": 310.50,
+    "size": "M",
+    "color": "Black, Grey",
+    "image": "winter_tee_2.jpg",
+    "categories": [
+      "650a8736e933ed51ff0d75fb"
+    ]
+  },
+  {
+    "name": "All-Season Tee 2",
+    "description": "A versatile T-shirt suitable for all seasons.",
+    "price": 320.99,
+    "size": "L",
+    "color": "Blue, White",
+    "image": "all_season_tee_2.jpg",
+    "categories": [
+      "650a8740e933ed51ff0d75fd"
+    ]
+  },
+  {
+    "name": "Adidas Tee 2",
+    "description": "A T-shirt featuring the Adidas logo.",
+    "price": 330.50,
+    "size": "M",
+    "color": "Black, Red",
+    "image": "adidas_tee_2.jpg",
+    "categories": [
+      "650a874be933ed51ff0d75ff"
+    ]
+  },
+  {
+    "name": "Nike Tee 2",
+    "description": "A T-shirt featuring the Nike logo.",
+    "price": 340.99,
+    "size": "S",
+    "color": "White, Black",
+    "image": "nike_tee_2.jpg",
+    "categories": [
+      "650a8754e933ed51ff0d7601"
+    ]
+  },
+  {
+    "name": "Puma Tee 2",
+    "description": "A T-shirt featuring the Puma logo.",
+    "price": 350.50,
+    "size": "L",
+    "color": "Black, Grey",
+    "image": "puma_tee_2.jpg",
+    "categories": [
+      "650a875de933ed51ff0d7603"
+    ]
+  },
+  {
+    "name": "Football Tee 2",
+    "description": "A T-shirt for football enthusiasts.",
+    "price": 320.99,
+    "size": "XL",
+    "color": "Red, Blue",
+    "image": "football_tee_2.jpg",
+    "categories": [
+      "650a8768e933ed51ff0d7605"
+    ]
+  },
+  {
+    "name": "Basketball Tee 2",
+    "description": "A T-shirt for basketball enthusiasts.",
+    "price": 320.99,
+    "size": "M",
+    "color": "Red, Blue",
+    "image": "basketball_tee_2.jpg",
+    "categories": [
+      "650a8771e933ed51ff0d7607"
+    ]
+  },
+  {
+    "name": "Yoga Tee 2",
+    "description": "A comfortable T-shirt for yoga enthusiasts.",
+    "price": 310.50,
+    "size": "S",
+    "color": "Purple, Grey",
+    "image": "yoga_tee_2.jpg",
+    "categories": [
+      "650a877ae933ed51ff0d7609"
+    ]
+  }
+]
