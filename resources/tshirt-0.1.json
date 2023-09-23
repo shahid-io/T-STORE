@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Striped Tee 1",
+    "description": "A classic striped T-shirt for everyday wear.",
+    "price": 290.99,
+    "size": "M",
+    "color": "White, Black",
+    "image": "striped_tee_1.jpg",
+    "categories": [
+      "650a7be17575e3b87f3f1d03"
+    ]
+  },
+  {
+    "name": "Graphic Tee 1",
+    "description": "A cool graphic T-shirt for casual occasions.",
+    "price": 350.50,
+    "size": "L",
+    "color": "Red, Blue",
+    "image": "graphic_tee_1.jpg",
+    "categories": [
+      "650a86bae933ed51ff0d75e7"
+    ]
+  },
+  {
+    "name": "Men's V-Neck 1",
+    "description": "A comfortable V-neck T-shirt for men.",
+    "price": 320.50,
+    "size": "L",
+    "color": "Black, Grey",
+    "image": "mens_vneck_1.jpg",
+    "categories": [
+      "650a86afe933ed51ff0d75e5",
+      "650a856be933ed51ff0d75d7"
+    ]
+  },
+  {
+    "name": "Women's Crew Neck 1",
+    "description": "A stylish crew neck T-shirt for women.",
+    "price": 299.99,
+    "size": "S",
+    "color": "Pink, White",
+    "image": "womens_crewneck_1.jpg",
+    "categories": [
+      "650a7bf77575e3b87f3f1d05",
+      "650a855ee933ed51ff0d75d5"
+    ]
+  },
+  {
+    "name": "Striped Tee 2",
+    "description": "A classic striped T-shirt for everyday wear.",
+    "price": 290.99,
+    "size": "M",
+    "color": "White, Black",
+    "image": "striped_tee_2.jpg",
+    "categories": [
+      "650a7be17575e3b87f3f1d03"
+    ]
+  },
+  {
+    "name": "Graphic Tee 2",
+    "description": "A cool graphic T-shirt for casual occasions.",
+    "price": 350.50,
+    "size": "L",
+    "color": "Red, Blue",
+    "image": "graphic_tee_2.jpg",
+    "categories": [
+      "650a86bae933ed51ff0d75e7"
+    ]
+  },
+  {
+    "name": "Men's V-Neck 2",
+    "description": "A comfortable V-neck T-shirt for men.",
+    "price": 320.50,
+    "size": "L",
+    "color": "Black, Grey",
+    "image": "mens_vneck_2.jpg",
+    "categories": [
+      "650a86afe933ed51ff0d75e5",
+      "650a856be933ed51ff0d75d7"
+    ]
+  },
+  {
+    "name": "Women's Crew Neck 2",
+    "description": "A stylish crew neck T-shirt for women.",
+    "price": 299.99,
+    "size": "S",
+    "color": "Pink, White",
+    "image": "womens_crewneck_2.jpg",
+    "categories": [
+      "650a7bf77575e3b87f3f1d05",
+      "650a7c057575e3b87f3f1d07"
+    ]
+  },
+  {
+    "name": "Long Sleeve Tee 1",
+    "description": "A comfortable long-sleeve T-shirt for all occasions.",
+    "price": 360.00,
+    "size": "XL",
+    "color": "Navy, Grey",
+    "image": "long_sleeve_tee_1.jpg",
+    "categories": [
+      "650a7c247575e3b87f3f1d0b",
+      "650a856be933ed51ff0d75d7"
+    ]
+  },
+  {
+    "name": "Short Sleeve Tee 1",
+    "description": "A classic short-sleeve T-shirt for everyday wear.",
+    "price": 270.00,
+    "size": "M",
+    "color": "White, Black",
+    "image": "short_sleeve_tee_1.jpg",
+    "categories": [
+      "650a7c167575e3b87f3f1d09"
+    ]
+  },
+  {
+    "name": "3/4 Sleeve Tee 1",
+    "description": "A versatile 3/4 sleeve T-shirt for any occasion.",
+    "price": 310.00,
+    "size": "L",
+    "color": "Blue, Red",
+    "image": "three_quarter_sleeve_tee_1.jpg",
+    "categories": [
+      "650a8547e933ed51ff0d75d3"
+    ]
+  },
+  {
+    "name": "Henley Neck Tee 1",
+    "description": "A stylish henley neck T-shirt for a casual look.",
+    "price": 320.50,
+    "size": "M",
+    "color": "Black, Grey",
+    "image": "henley_neck_tee_1.jpg",
+    "categories": [
+      "650a8578e933ed51ff0d75d9"
+    ]
+  },
+  {
+    "name": "Cotton Tee 1",
+    "description": "A comfortable cotton T-shirt for everyday wear.",
+    "price": 290.99,
+    "size": "S",
+    "color": "White, Grey",
+    "image": "cotton_tee_1.jpg",
+    "categories": [
+      "650a86afe933ed51ff0d75e5",
+      "650a86ade933ed51ff0d75e3"
+    ]
+  },
+  {
+    "name": "Polo Tee 1",
+    "description": "A classic polo T-shirt for a smart-casual look.",
+    "price": 360.00,
+    "size": "L",
+    "color": "Navy, White",
+    "image": "polo_tee_1.jpg",
+    "categories": [
+      "650a86c1e933ed51ff0d75e9"
+    ]
+  }
+]
