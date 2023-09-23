@@ -1,4 +1,4 @@
-const { TshirtService } = require('../services');
+const { TshirtService } = require("../services");
 
 /**
  * POST /api/tshirts
@@ -15,42 +15,65 @@ const { TshirtService } = require('../services');
  * "image": "https://www.google.com"
  * }
  * @returns { tshirt }
-*/
+ */
 
 async function addTshirt(req, res) {
-    try {
-        const { name, description, price, size, color, image, categories } = req.body;
-        const tshirt = await TshirtService.addTshirt(
-            {
-                name, description, price, size, color, image, categories
-            }
-        );
-        res.json({ message: 'Tshirt created successfully', tshirt });
-    } catch (error) {
-        res.status(500).json({ message: 'Error creating tshirt', error: error.message });
-    }
+  try {
+    const { name, description, price, size, color, image, categories } =
+      req.body;
+    const tshirt = await TshirtService.addTshirt({
+      name,
+      description,
+      price,
+      size,
+      color,
+      image,
+      categories,
+    });
+    res.json({ message: "Tshirt created successfully", tshirt });
+  } catch (error) {
+    res
+      .status(500)
+      .json({ message: "Error creating tshirt", error: error.message });
+  }
 }
 
 async function getTshirts(req, res) {
-    try {
-        const tshirts = await TshirtService.getTshirts();
-        res.json({ message: 'Tshirts fetched successfully', tshirts });
-    } catch (error) {
-        res.status(500).json({ message: 'Error fetching tshirts', error: error.message });
-    }
+  try {
+    const tshirts = await TshirtService.getTshirts();
+    res.json({ message: "Tshirts fetched successfully", tshirts });
+  } catch (error) {
+    res
+      .status(500)
+      .json({ message: "Error fetching tshirts", error: error.message });
+  }
+}
+async function getTshirt(req, res) {
+  const id = req.params.id;
+  try {
+    const tshirts = await TshirtService.getTshirt(id);
+    res.json({ message: "Tshirts fetched successfully", tshirts });
+  } catch (error) {
+    res
+      .status(500)
+      .json({ message: "Error fetching tshirts", error: error.message });
+  }
 }
 
 async function getAllTshirtsWithCategoryNames(req, res) {
-    try {
-        const tshirts = await TshirtService.getAllTshirtsWithCategoryNames();
-        res.json({ message: 'Tshirts fetched successfully', tshirts });
-    } catch (error) {
-        res.status(500).json({ message: 'Error fetching tshirts', error: error.message });
-    }
+  try {
+    const tshirts = await TshirtService.getAllTshirtsWithCategoryNames();
+    res.json({ message: "Tshirts fetched successfully", tshirts });
+  } catch (error) {
+    res
+      .status(500)
+      .json({ message: "Error fetching tshirts", error: error.message });
+  }
 }
 
-
-
 module.exports = {
-    addTshirt, getTshirts, getAllTshirtsWithCategoryNames
+  addTshirt,
+  getTshirt,
+  getTshirts,
+  getAllTshirtsWithCategoryNames,
 };

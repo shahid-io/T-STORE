@@ -9,9 +9,6 @@ const router = express.Router();
 
 router.post("/", AuthMiddleware.verifyToken, TshirtController.addTshirt);
 router.get("/", TshirtController.getTshirts);
-router.get(
-  "/category",
-  AuthMiddleware.verifyToken,
-  TshirtController.getAllTshirtsWithCategoryNames
-);
+router.get("/:id", TshirtController.getTshirt);
+router.get("/category", TshirtController.getAllTshirtsWithCategoryNames);
 module.exports = router;
