@@ -10,5 +10,7 @@ const router = express.Router();
 router.post("/", AuthMiddleware.verifyToken, TshirtController.addTshirt);
 router.get("/", TshirtController.getTshirts);
 router.get("/:id", TshirtController.getTshirt);
+router.get("/:slug", TshirtController.getTshirtBySlug);
 router.get("/category", TshirtController.getAllTshirtsWithCategoryNames);
+router.get("/category/:id", TshirtController.getAllTshirtsWithCategoryName);
 module.exports = router;

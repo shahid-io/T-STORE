@@ -1,4 +1,5 @@
 const { TshirtService } = require("../services");
+const slugify = require("slugify");
 
 /**
  * POST /api/tshirts
@@ -19,17 +20,8 @@ const { TshirtService } = require("../services");
 
 async function addTshirt(req, res) {
   try {
-    const { name, description, price, size, color, image, categories } =
-      req.body;
-    const tshirt = await TshirtService.addTshirt({
-      name,
-      description,
-      price,
-      size,
-      color,
-      image,
-      categories,
-    });
+    if (req.body.name) req.body.slug = slugify(req.body.name, "-");
+    const tshirt = await TshirtService.addTshirt(req.body);
     res.json({ message: "Tshirt created successfully", tshirt });
   } catch (error) {
     res
@@ -59,6 +51,17 @@ async function getTshirt(req, res) {
       .json({ message: "Error fetching tshirts", error: error.message });
   }
 }
+async function getTshirtBySlug(req, res) {
+  const slug = req.params.slug;
+  try {
+    const tshirts = await TshirtService.getTshirtBySlug(slug);
+    res.json({ message: "Tshirts fetched successfully", tshirts });
+  } catch (error) {
+    res
+      .status(500)
+      .json({ message: "Error fetching tshirts", error: error.message });
+  }
+}
 
 async function getAllTshirtsWithCategoryNames(req, res) {
   try {
@@ -71,9 +74,23 @@ async function getAllTshirtsWithCategoryNames(req, res) {
   }
 }
 
+async function getAllTshirtsWithCategoryName(req, res) {
+  const id = req.params.id;
+  try {
+    const tshirts = await TshirtService.getAllTshirtsWithCategoryName(id);
+    res.json({ message: "Tshirts fetched successfully", tshirts });
+  } catch (error) {
+    res
+      .status(500)
+      .json({ message: "Error fetching tshirts", error: error.message });
+  }
+}
+
 module.exports = {
   addTshirt,
   getTshirt,
   getTshirts,
+  getTshirtBySlug,
   getAllTshirtsWithCategoryNames,
+  getAllTshirtsWithCategoryName,
 };
