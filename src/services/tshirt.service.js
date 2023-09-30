@@ -31,6 +31,14 @@ async function getTshirt(id) {
     throw error;
   }
 }
+async function getTshirtBySlug(slug) {
+  try {
+    const tshirt = await tshirtRepository.getBySlug(slug);
+    return tshirt;
+  } catch (error) {
+    throw error;
+  }
+}
 
 // Get Tshirts with category names
 async function getAllTshirtsWithCategoryNames() {
@@ -41,10 +49,21 @@ async function getAllTshirtsWithCategoryNames() {
     throw error;
   }
 }
+// Get Tshirts with category names
+async function getAllTshirtsWithCategoryName(id) {
+  try {
+    const tshirts = await tshirtRepository.getAllTshirtsWithCategoryName(id);
+    return tshirts;
+  } catch (error) {
+    throw error;
+  }
+}
 
 module.exports = {
   addTshirt,
   getTshirt,
   getTshirts,
+  getTshirtBySlug,
   getAllTshirtsWithCategoryNames,
+  getAllTshirtsWithCategoryName,
 };
