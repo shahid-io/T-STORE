@@ -1,45 +1,51 @@
 const { StatusCodes } = require("http-status-codes");
-const { UserRepository } = require('../repository');
+const { UserRepository } = require("../repository");
 const { Auth } = require("../utils/common");
 const userRepository = new UserRepository();
 
 async function signupUser(data) {
-    try {
-        const user = await userRepository.signup(data);
-        return user;
-    } catch (error) {
-        throw error;
-    }
+  try {
+    const user = await userRepository.signup(data);
+    return user;
+  } catch (error) {
+    throw error;
+  }
 }
 
 async function loginUser(data) {
-    try {
-        const user = await userRepository.login(data);
-        return user;
-    } catch (error) {
-        throw error;
-    }
+  try {
+    const user = await userRepository.login(data);
+    return user;
+  } catch (error) {
+    throw error;
+  }
 }
 
-async function findUserById(data){ 
-    try {
-        const user = await userRepository.get(data);
-        return user;
-    } catch (error) {
-        throw error;
-    }
+async function findUserById(data) {
+  try {
+    const user = await userRepository.get(data);
+    return user;
+  } catch (error) {
+    throw error;
+  }
 }
 
 async function updateUser(id, data) {
-    try {
-        const user = await userRepository.update(id, data);
-        return user;
-    } catch (error) {
-        throw error;
-    }
+  try {
+    const user = await userRepository.update(id, data);
+    return user;
+  } catch (error) {
+    throw error;
+  }
 }
-
-
+async function updateUserProfile(id, data) {
+  try {
+    const user = await userRepository.update(id, data);
+    return user;
+  } catch (error) {
+    throw error;
+  }
+}
 
 // async function authenticateUser(token) {
 //     try {
@@ -74,11 +80,10 @@ async function updateUser(id, data) {
 //     }
 // }
 
-
 module.exports = {
-    signupUser,
-    loginUser,
-    updateUser,
-    findUserById
-    // authenticateUser
-}
+  signupUser,
+  loginUser,
+  updateUser,
+  findUserById,
+  // authenticateUser
+};
