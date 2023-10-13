@@ -1,5 +1,5 @@
 const { TshirtService } = require("../services");
-const slugify = require("slugify");
+const { slugify } = require("../utils/slugify");
 
 /**
  * POST /api/tshirts
@@ -20,7 +20,7 @@ const slugify = require("slugify");
 
 async function addTshirt(req, res) {
   try {
-    if (req.body.name) req.body.slug = slugify(req.body.name, "-");
+    if (req.body.name) req.body.slug = slugify(req.body.name);
     const tshirt = await TshirtService.addTshirt(req.body);
     res.json({ message: "Tshirt created successfully", tshirt });
   } catch (error) {
