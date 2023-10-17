@@ -23,8 +23,6 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/api", apiRoutes);
 
-app.use("./netlify/functions/api", apiRoutes);
-
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
