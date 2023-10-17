@@ -1,5 +1,6 @@
 const { StatusCodes } = require("http-status-codes");
 const { TshirtRepository } = require("../repository");
+const { Tshirt } = require("../models/tshirt.model");
 
 const tshirtRepository = new TshirtRepository();
 
@@ -7,6 +8,16 @@ const tshirtRepository = new TshirtRepository();
 async function addTshirt(data) {
   try {
     const tshirt = await tshirtRepository.create(data);
+    return tshirt;
+  } catch (error) {
+    throw error;
+  }
+}
+
+// Update Tshirt
+async function updateTshirt(id, data) {
+  try {
+    const tshirt = await tshirtRepository.update(id, data);
     return tshirt;
   } catch (error) {
     throw error;
@@ -61,6 +72,7 @@ async function getAllTshirtsWithCategoryName(id) {
 
 module.exports = {
   addTshirt,
+  updateTshirt,
   getTshirt,
   getTshirts,
   getTshirtBySlug,
