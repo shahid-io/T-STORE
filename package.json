@@ -7,8 +7,8 @@
   "license": "ISC",
   "scripts": {
     "dev": "npx nodemon src/index.js",
-    "start": "./node_modules/.bin/netlify-lambda serve src",
-    "build": "./node_modules/.bin/netlify-lambda build src"
+    "start": "NODE_ENV=development ./node_modules/.bin/netlify-lambda serve src",
+    "build": "NODE_ENV=production ./node_modules/.bin/netlify-lambda build src"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
