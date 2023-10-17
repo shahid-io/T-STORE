@@ -8,6 +8,7 @@ const router = express.Router();
  */
 
 router.post("/", AuthMiddleware.verifyToken, TshirtController.addTshirt);
+router.put("/:id", AuthMiddleware.verifyToken, TshirtController.updateTshirt);
 router.get("/", TshirtController.getTshirts);
 router.get("/:id", TshirtController.getTshirt);
 router.get("/:slug", TshirtController.getTshirtBySlug);

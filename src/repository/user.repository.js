@@ -38,7 +38,7 @@ class UserRepository extends CRUDRepository {
         throw new Error("User not found");
       }
 
-      const passwordMatch = bcrypt.compare(password, user.password);
+      const passwordMatch = await bcrypt.compare(password, user.password);
 
       if (!passwordMatch) {
         throw new Error("Incorrect password");
