@@ -7,7 +7,8 @@
   "license": "ISC",
   "scripts": {
     "dev": "npx nodemon src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
